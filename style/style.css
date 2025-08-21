@@ -151,7 +151,7 @@ main > section{
     
     }
 
-    .team-image-container{
+    .team-image-container, .facts-container{
         grid-template-columns: repeat(1, 1fr);
         
     }
@@ -160,6 +160,10 @@ main > section{
     }
     .team-image-container img{
         width: 100%;
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
     }
 }
 
